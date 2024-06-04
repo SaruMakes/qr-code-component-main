@@ -3,25 +3,58 @@
     margin: 0;
 }
 
+
 /*Body*/
 body {
     background-color: hsl(212, 45%, 89%);
+    font-family: Outfit, sans-serif;
 }
 
 /*Modal*/
-section .modal {
-    width: 375px;
-    
+#modal {
+    width: 250px;
+    padding: 15px;
+    margin: 50px auto 0;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+
+#modal img {
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#modal article {
+    text-align: center;
+    padding: 0 10px;
+}
+
+#modal article h1 {
+    margin: 18px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#modal article p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    margin: 20px 0;
+    font-weight: 400;
 }
 
 
 /*Attribution Footer*/
 
-section .attribution {
+.attribution {
     font-size: 11px;
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
 }
 
-section .attribution .a {
-    color: hsl(228, 45%, 44%);
+.attribution a {
+    color: hsl(218, 44%, 22%);
 }
