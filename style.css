@@ -5,20 +5,23 @@
 
 /*Body*/
 body {
-    background-color: hsl(220, 15%, 55%);
+    background-color: hsl(212, 45%, 89%);
 }
 
 /*Modal*/
-
+section .modal {
+    width: 375px;
+    
+}
 
 
 /*Attribution Footer*/
 
-#attribution {
+section .attribution {
     font-size: 11px;
     text-align: center;
 }
 
-#attribution .a {
+section .attribution .a {
     color: hsl(228, 45%, 44%);
 }
